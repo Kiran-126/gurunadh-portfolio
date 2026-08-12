@@ -17,11 +17,10 @@ export const profile = {
 };
 
 export const links = {
-  github: "[YOUR GITHUB URL]",
-  linkedin: "[YOUR LINKEDIN URL]",
-  email: "[YOUR EMAIL]",
+  github: "https://github.com/Kiran-126",
+  linkedin: "https://www.linkedin.com/in/gurunadha-gumpa-17507434b",
+  email: "mailto:gurunadhgumpa@gmail.com",
 };
-
 export const navLinks = [
   { label: "About", href: "#about" },
   { label: "Skills", href: "#skills" },
@@ -53,7 +52,7 @@ export const education = [
   {
     degree: "B.Tech — Computer Science and Engineering (AI & ML)",
     institution: "Lendi Institute of Engineering and Technology",
-    period: "[START YEAR] — [EXPECTED GRADUATION YEAR]",
+    period: "[ START YEAR: 2024 ] — [ EXPECTED GRADUATION: 2028 ]",
     description:
       "Undergraduate program focused on core computer science with a specialization in Artificial Intelligence and Machine Learning — covering algorithms, data systems, and applied ML.",
   },

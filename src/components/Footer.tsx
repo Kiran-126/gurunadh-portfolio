@@ -1,0 +1,6 @@
+import { ArrowUp, Github, Linkedin, Mail } from "lucide-react";
+import { links, profile } from "@/data/portfolio";
+
+export default function Footer() {
+  return <footer className="border-t border-white/[0.08] py-8"><div className="mx-auto flex max-w-6xl flex-col gap-5 px-5 sm:px-8 md:flex-row md:items-center md:justify-between"><div><p className="text-sm font-medium text-white">{profile.name}</p><p className="mt-1 font-mono text-[10px] tracking-wide text-slate-500">{profile.footerRole}</p></div><div className="flex items-center gap-5"><a href={links.github} target="_blank" rel="noreferrer noopener" aria-label="GitHub" className="text-slate-500 transition-colors hover:text-cyan-300"><Github className="h-4 w-4" /></a><a href={links.linkedin} target="_blank" rel="noreferrer noopener" aria-label="LinkedIn" className="text-slate-500 transition-colors hover:text-cyan-300"><Linkedin className="h-4 w-4" /></a><a href={`mailto:${links.email}`} aria-label="Email" className="text-slate-500 transition-colors hover:text-cyan-300"><Mail className="h-4 w-4" /></a><a href="#hero" aria-label="Back to top" className="ml-3 border-l border-white/10 pl-5 text-slate-500 transition-colors hover:text-cyan-300"><ArrowUp className="h-4 w-4" /></a></div><p className="text-xs text-slate-600 md:text-right">© 2026 {profile.name}. All rights reserved.</p></div></footer>;
+}
